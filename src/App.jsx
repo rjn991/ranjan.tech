@@ -8,7 +8,7 @@ import { FlipWords } from "./components/ui/flip-words";
 import Navbar from "./Navbar/Navbar";
 import dp from "./assets/profile.png";
 import github from "./assets/github.svg";
-import resume from "./assets/resume.svg"
+import resume from "./assets/resume.svg";
 function App() {
   const words = ["Web Developer", "Cloud Enthusiast", "Linux Hobbyist"];
   return (
@@ -29,13 +29,13 @@ function App() {
               duration: 0.5,
               ease: [0.4, 0.0, 0.2, 1],
             }}
-            className="flex p-9 gap-4 sm:gap-20 items-center text-5xl font-bold text-neutral-700 dark:text-white leading-snug sm:leading-relaxed  mx-auto flex-col-reverse md:flex-row sm:flex-row "
+            className="flex p-9 gap-4 sm:gap-20 items-center text-[3.2rem] font-bold text-neutral-700 dark:text-white leading-snug sm:leading-relaxed  mx-auto flex-col-reverse md:flex-row sm:flex-row "
           >
             <div className="flex-[1] font-jbmono">
-              <p className="text-3xl">Hi there,</p>
+              <p className="text-3xl sm:text-4xl">Hi there,</p>
               <p className="hidden sm:block">My name is Ranjan</p>
-              <p className="block sm:hidden">I'm Ranjan</p>
-              <div className="hidden sm:block text-3xl text-neutral-400">
+              <p className="block text-4xl sm:hidden">I'm Ranjan</p>
+              <div className="hidden sm:block text-4xl text-neutral-400">
                 I am a <FlipWords words={words} />
               </div>
               <p className="block sm:hidden text-xl text-neutral-300">
@@ -51,7 +51,7 @@ function App() {
             <div className="relative">
               <div className="absolute inset-1 rounded-full bg-gradient-to-b from-blue-900  to-red-900 opacity-50 blur"></div>
               <img
-                className="relative block rounded-full max-h-[250px]"
+                className="relative block rounded-full max-h-[300px]"
                 src={dp}
               ></img>
             </div>

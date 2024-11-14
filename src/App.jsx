@@ -6,8 +6,7 @@ import { HeroHighlight, Highlight } from "./components/ui/hero-highlight";
 import { FlipWords } from "./components/ui/flip-words";
 import dp from "./assets/profile.png";
 function App() {
-  const [count, setCount] = useState(0);
-  const words = ["Web Developer", "Linux Enthusiast","Man Of Culture"];
+  const words = ["Web Developer", "Cloud Enthusiast","Linux Hobbyist"];
   return (
     <>
       <div className="min-h-screen flex flex-col">
@@ -33,7 +32,7 @@ function App() {
               <p className="hidden sm:block">My name is Ranjan</p>
               <p className="block sm:hidden">I'm Ranjan</p>
               <p className="hidden sm:block text-3xl text-neutral-400">I am a <FlipWords words={words} /></p>
-              <p className="block sm:hidden text-xl text-neutral-300">I am a Web Developer and a Linux Enthusiast</p>
+              <p className="block sm:hidden text-xl text-neutral-300">I'm a Web Developer and a Linux Enthusiast.</p>
             </div>
             <div className="relative">
               <div className="absolute inset-1 rounded-full bg-gradient-to-b from-blue-900  to-red-900 opacity-50 blur"></div>

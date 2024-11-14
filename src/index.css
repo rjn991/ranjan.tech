@@ -6,3 +6,12 @@ body,
 #root {
   height: 100%;
 }
+
+@font-face {
+  font-family: "jbmonobold";
+  src: url("./src/fonts/JetBrainsMono-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "jbmono";
+  src: url("./src/fonts/JetBrainsMono-Regular.ttf");
+}

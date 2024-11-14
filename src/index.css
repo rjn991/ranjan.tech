@@ -9,9 +9,9 @@ body,
 
 @font-face {
   font-family: "jbmonobold";
-  src: url("./src/fonts/JetBrainsMono-ExtraBold.ttf");
+  src: url("/src/fonts/JetBrainsMono-ExtraBold.ttf");
 }
 @font-face {
   font-family: "jbmono";
-  src: url("./src/fonts/JetBrainsMono-Regular.ttf");
+  src: url("/src/fonts/JetBrainsMono-Regular.ttf");
 }

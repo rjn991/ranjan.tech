@@ -7,8 +7,10 @@ import { FlipWords } from "./components/ui/flip-words";
 
 import Navbar from "./Navbar/Navbar";
 import dp from "./assets/profile.png";
+import github from "./assets/github.svg";
+import resume from "./assets/resume.svg"
 function App() {
-  const words = ["Web Developer", "Cloud Enthusiast","Linux Hobbyist"];
+  const words = ["Web Developer", "Cloud Enthusiast", "Linux Hobbyist"];
   return (
     <>
       <div className="min-h-screen flex flex-col">
@@ -33,8 +35,18 @@ function App() {
               <p className="text-3xl">Hi there,</p>
               <p className="hidden sm:block">My name is Ranjan</p>
               <p className="block sm:hidden">I'm Ranjan</p>
-              <p className="hidden sm:block text-3xl text-neutral-400">I am a <FlipWords words={words} /></p>
-              <p className="block sm:hidden text-xl text-neutral-300">I'm a Web Developer and a Linux Enthusiast.</p>
+              <div className="hidden sm:block text-3xl text-neutral-400">
+                I am a <FlipWords words={words} />
+              </div>
+              <p className="block sm:hidden text-xl text-neutral-300">
+                I'm a Web Developer and a Linux Enthusiast.
+              </p>
+              <div className="cursor-pointer inline-flex mr-5 py-2 px-5 text-base animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+                <img src={github} className="fill-white w-6 mr-2"></img>Github
+              </div>
+              <div className="cursor-pointer inline-flex py-2 px-5 text-base animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+                <img src={resume} className="fill-white w-6 mr-2"></img>Resume
+              </div>
             </div>
             <div className="relative">
               <div className="absolute inset-1 rounded-full bg-gradient-to-b from-blue-900  to-red-900 opacity-50 blur"></div>

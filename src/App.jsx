@@ -4,13 +4,15 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { HeroHighlight, Highlight } from "./components/ui/hero-highlight";
 import { FlipWords } from "./components/ui/flip-words";
+
+import Navbar from "./Navbar/Navbar";
 import dp from "./assets/profile.png";
 function App() {
   const words = ["Web Developer", "Cloud Enthusiast","Linux Hobbyist"];
   return (
     <>
       <div className="min-h-screen flex flex-col">
-        <div>nav</div>
+        <Navbar></Navbar>
         <HeroHighlight>
           <motion.h1
             initial={{

@@ -57,65 +57,102 @@ function App() {
           </motion.h1>
         </HeroHighlight>
       </div>
+
       <div className="bg-gray-950 font-jbmono py-10">
         <p className="text-center text-white text-3xl">
           Things I fiddle with...
         </p>
-        <div className="flex p-10 gap-6">
-          <img
-            className="h-24"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-          />
-          <img
-            className="h-24"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-          />
-          <img
-            className="h-24"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-          />
-          <img
-            className="h-24"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
-          />
-
-          <img
-            className="h-24"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
-          />
-
-          <img
-            className="h-24"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
-          />
-
-          <img
-            className="h-24"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
-          />
-
-          <img
-            className="h-24"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
-          />
-
-          <img
-            className="h-24"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
-          />
-
-          <img
-            className="h-24"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg"
-          />
-
-          <img
-            className="h-24"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
-          />
+        <div className="flex flex-wrap p-10 sm:gap-10 gap-6 justify-center items-center text-center text-gray-950">
+          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
+            <img
+              className="h-24"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+            />
+            <p className="cursor-default pt-1">HTML5</p>
+          </div>
+          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
+            <img
+              className="h-24"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+            />
+            <p className="cursor-default pt-1">CSS3</p>
+          </div>
+          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
+            <img
+              className="h-24"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+            />
+            <p className="cursor-default pt-1">JavaScript</p>
+          </div>
+          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
+            <img
+              className="h-24"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+            />
+            <p className="cursor-default pt-1">React</p>
+          </div>
+          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
+            <img
+              className="h-24"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+            />
+            <p className="cursor-default pt-1">Tailwind</p>
+          </div>
+          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
+            <img
+              className="h-24"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+              />
+            <p className="cursor-default pt-1">NodeJS</p>
+          </div>
+          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
+            <img
+              className="h-24"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+            />
+            <p className="cursor-default pt-1">MongoDB</p>
+          </div>
+          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
+            <img
+              className="h-24"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
+            />
+            <p className="cursor-default pt-1">Firebase</p>
+          </div>
+          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
+            <img
+              className="h-24"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+            />
+            <p className="cursor-default pt-1">Python</p>
+          </div>
+          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
+            <img
+              className="h-24"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg"
+            />
+            <p className="cursor-default pt-1">Azure</p>
+          </div>
+          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
+            <img
+              className="h-24"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+            />
+            <p className="cursor-default pt-1">AWS</p>
+          </div>
+          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
+            <img
+              className="h-24"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
+            />
+            <p className="cursor-default pt-1">GNU/Linux</p>
+          </div>
         </div>
       </div>
-      
+
+      <div>
+          Hello
+      </div>
     </>
   );
 }

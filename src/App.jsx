@@ -1,9 +1,9 @@
 import { useState } from "react";
-
 ("use client");
 import { motion } from "framer-motion";
 import { HeroHighlight, Highlight } from "./components/ui/hero-highlight";
 import { FlipWords } from "./components/ui/flip-words";
+import { HoverEffect } from "./components/ui/card-hover-effect";
 
 import Navbar from "./Navbar/Navbar";
 import dp from "./assets/profile.png";
@@ -64,17 +64,75 @@ function App() {
         </p>
         <div className="flex p-10 gap-6">
           <img
-            className="w-24"
+            className="h-24"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
           />
           <img
-            className="w-24"
+            className="h-24"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
           />
+          <img
+            className="h-24"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+          />
+          <img
+            className="h-24"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+          />
+
+          <img
+            className="h-24"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+          />
+
+          <img
+            className="h-24"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+          />
+
+          <img
+            className="h-24"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
+          />
+
+          <img
+            className="h-24"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+          />
+
+          <img
+            className="h-24"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+          />
+
+          <img
+            className="h-24"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg"
+          />
+
+          <img
+            className="h-24"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
+          />
         </div>
+      </div>
+      <div className="mx-auto px-8">
+        <HoverEffect items={projects} />
       </div>
     </>
   );
 }
 
+const projects = [
+  {
+    title: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg",
+    description:
+      "HTML",
+  },
+  {
+    title: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg",
+    description:
+      "HTML",
+  },
+];
 export default App;

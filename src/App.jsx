@@ -12,6 +12,7 @@ import resume from "./assets/resume.svg";
 
 // project images
 import githubp from "./assets/github-project.svg";
+import filep from "./assets/file.svg";
 import linkp from "./assets/link-project.svg";
 import guessit from "./assets/guessit.png";
 import portfolio from "./assets/portfolio.png";
@@ -19,8 +20,8 @@ import picochat from "./assets/picochat.png";
 import chatbase from "./assets/chatbase.png";
 import oldPortfolio from "./assets/oldportfolio.png";
 import earbio from "./assets/earbio.png";
-import leafopedia from "./assets/leafopedia.png"
-import hyprland from "./assets/hyprland.png"
+import leafopedia from "./assets/leafopedia.png";
+import hyprland from "./assets/hyprland.png";
 function App() {
   const words = ["Web Developer", "Cloud Enthusiast", "Linux Hobbyist"];
   return (
@@ -53,12 +54,16 @@ function App() {
               <p className="block sm:hidden text-xl text-neutral-300">
                 I'm a Web Developer and a Linux Enthusiast.
               </p>
-              <div className="cursor-pointer inline-flex mr-5 py-2 px-5 text-base animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
-                <img src={github} className="w-6 mr-2"></img>Github
-              </div>
-              <div className="cursor-pointer inline-flex py-2 px-5 text-base animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
-                <img src={resume} className="w-6 mr-2"></img>Resume
-              </div>
+              <a href="https://github.com/rjn991" target="_blank" className="mr-5">
+                <div className="cursor-pointer inline-flex py-2 px-5 text-base animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+                  <img src={github} className="w-6 mr-2"></img>Github
+                </div>
+              </a>
+              <a href="https://ranjan.tech/resume" target="_blank">
+                <div className="cursor-pointer inline-flex py-2 px-5 text-base animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+                  <img src={resume} className="w-6 mr-2"></img>Resume
+                </div>
+              </a>
             </div>
             <div className="relative">
               <div className="absolute inset-1 rounded-full bg-gradient-to-b from-blue-900  to-red-900 opacity-50 blur"></div>
@@ -182,10 +187,10 @@ function App() {
                 Song guessing game made using React and Youtube Data API.
               </p>
               <div className="flex gap-5 mt-auto justify-end items-center w-full">
-                <a>
+                <a href="https://github.com/rjn991/guessIt" target="_blank">
                   <img className="w-6" src={githubp}></img>
                 </a>
-                <a>
+                <a href="https://guessit2.vercel.app/" target="_blank">
                   <img className="w-6" src={linkp}></img>
                 </a>
               </div>
@@ -226,10 +231,10 @@ function App() {
                 A real-time chatroom made using Firebase and PicoCSS.
               </p>
               <div className="flex gap-5 mt-auto justify-end items-center w-full">
-                <a>
+                <a href="https://github.com/rjn991/picochat" target="_blank">
                   <img className="w-6" src={githubp}></img>
                 </a>
-                <a>
+                <a href="https://picochat-7f8cb.firebaseapp.com" target="_blank">
                   <img className="w-6" src={linkp}></img>
                 </a>
               </div>
@@ -248,10 +253,10 @@ function App() {
                 Yet another chatroom, but made using LAMP stack.
               </p>
               <div className="flex gap-5 mt-auto justify-end items-center w-full">
-                <a>
+                <a href="https://github.com/rjn991/chatbase" target="_blank">
                   <img className="w-6" src={githubp}></img>
                 </a>
-                <a>
+                <a href="https://chatbase.ranjan.tech" target="_blank">
                   <img className="w-6" src={linkp}></img>
                 </a>
               </div>
@@ -270,10 +275,10 @@ function App() {
                 My old portfolio, cooked using raw HTML and CSS.
               </p>
               <div className="flex gap-5 mt-auto justify-end items-center w-full">
-                <a>
+                <a href="https://github.com/rjn991/ranjan.tech" target="_blank">
                   <img className="w-6" src={githubp}></img>
                 </a>
-                <a>
+                <a href="https://ranjan.tech" target="_blank">
                   <img className="w-6" src={linkp}></img>
                 </a>
               </div>
@@ -293,11 +298,11 @@ function App() {
                 patterns.
               </p>
               <div className="flex gap-5 mt-auto justify-end items-center w-full">
-                <a>
+                <a href="https://github.com/rjn991/earBasedPersonRecognition" target="_blank">
                   <img className="w-6" src={githubp}></img>
                 </a>
-                <a>
-                  <img className="w-6" src={linkp}></img>
+                <a href="https://raw.githubusercontent.com/rjn991/earBasedPersonRecognition/main/ear_biometcics.pdf" target="_blank">
+                  <img className="w-6" src={filep}></img>
                 </a>
               </div>
             </div>
@@ -316,11 +321,11 @@ function App() {
                 information using leaf images.
               </p>
               <div className="flex gap-5 mt-auto justify-end items-center w-full">
-                <a>
+                <a href="https://github.com/rjn991/leafopedia" target="_blank">
                   <img className="w-6" src={githubp}></img>
                 </a>
-                <a>
-                  <img className="w-6" src={linkp}></img>
+                <a href="https://raw.githubusercontent.com/rjn991/leafopedia/main/leafopedia.pdf" target="_blank">
+                  <img className="w-6" src={filep}></img>
                 </a>
               </div>
             </div>
@@ -336,14 +341,12 @@ function App() {
               </div>
               <p className="font-normal text-base text-slate-500 my-4 relative z-50">
                 This is my favourite hobby, customizing window managers. This
-                repo contains the dotfiles of my Hyprland setup. And I use Arch BTW.
+                repo contains the dotfiles of my Hyprland setup. And I use Arch
+                BTW.
               </p>
               <div className="flex gap-5 mt-auto justify-end items-center w-full">
-                <a>
+                <a href="https://github.com/rjn991/hyprland-dots" target="_blank">
                   <img className="w-6" src={githubp}></img>
-                </a>
-                <a>
-                  <img className="w-6" src={linkp}></img>
                 </a>
               </div>
             </div>

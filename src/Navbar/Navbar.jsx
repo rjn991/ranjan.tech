@@ -7,7 +7,7 @@ const Navbar = () => {
         </div>
         <div className="pr-10 flex text-lg">
           <p className="mr-10 px-3 py-1 hover:rounded-md hover:bg-neutral-900 cursor-pointer">Home</p>
-          <p className="px-3 py-1 hover:rounded-md hover:bg-neutral-900 cursor-pointer">Github</p>
+          <p className="px-3 py-1 hover:rounded-md hover:bg-neutral-900 cursor-pointer">About & Contact</p>
         </div>
       </div>
     </div>

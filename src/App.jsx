@@ -9,6 +9,9 @@ import Navbar from "./Navbar/Navbar";
 import dp from "./assets/profile.png";
 import github from "./assets/github.svg";
 import resume from "./assets/resume.svg";
+
+// project images
+import guessit from "./assets/guessit.png";
 function App() {
   const words = ["Web Developer", "Cloud Enthusiast", "Linux Hobbyist"];
   return (
@@ -151,15 +154,34 @@ function App() {
         </div>
       </div>
 
-      <div className="font-jbmono p-10 w-full  bg-black dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2] relative">
+      <div className="font-jbmono py-10 px-5 sm:px-10 w-full  bg-black dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2] relative">
         {/* Radial gradient for the container to give a faded look */}
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
         <p className="text-center text-white text-3xl pb-10">Projects</p>
 
-        <div class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
+        <div class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
           <div className=" w-full relative">
             <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
-            <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
+            <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col items-start">
+              <h1 className="font-bold text-xl text-white mb-4 relative z-50">
+                GuessIt
+              </h1>
+              <div >
+                <img className="rounded-xl" src={guessit}></img>
+              </div>
+              <p className="font-normal text-base text-slate-500 my-4 relative z-50">
+                I don&apos;t know what to write so I&apos;ll just paste
+                something cool here. One more sentence because lorem ipsum is
+                just unacceptable. Won&apos;t ChatGPT the shit out of this.
+              </p>
+              <button className="border px-4 py-1 rounded-lg  border-gray-500 text-gray-300">
+                Explore
+              </button>
+            </div>
+          </div>
+          <div className=" w-full relative">
+            <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
+            <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col items-start">
               <h1 className="font-bold text-xl text-white mb-4 relative z-50">
                 GuessIt
               </h1>
@@ -177,25 +199,7 @@ function App() {
           </div>
           <div className=" w-full relative">
             <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
-            <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
-              <h1 className="font-bold text-xl text-white mb-4 relative z-50">
-                GuessIt
-              </h1>
-
-              <p className="font-normal text-base text-slate-500 mb-4 relative z-50">
-                I don&apos;t know what to write so I&apos;ll just paste
-                something cool here. One more sentence because lorem ipsum is
-                just unacceptable. Won&apos;t ChatGPT the shit out of this.
-              </p>
-
-              <button className="border px-4 py-1 rounded-lg  border-gray-500 text-gray-300">
-                Explore
-              </button>
-            </div>
-          </div>
-          <div className=" w-full relative">
-            <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
-            <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
+            <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col items-start">
               <h1 className="font-bold text-xl text-white mb-4 relative z-50">
                 GuessIt
               </h1>

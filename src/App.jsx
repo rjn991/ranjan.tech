@@ -3,7 +3,6 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { HeroHighlight, Highlight } from "./components/ui/hero-highlight";
 import { FlipWords } from "./components/ui/flip-words";
-import { HoverEffect } from "./components/ui/card-hover-effect";
 
 import Navbar from "./Navbar/Navbar";
 import dp from "./assets/profile.png";
@@ -116,23 +115,8 @@ function App() {
           />
         </div>
       </div>
-      <div className="mx-auto px-8">
-        <HoverEffect items={projects} />
-      </div>
+      
     </>
   );
 }
-
-const projects = [
-  {
-    title: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg",
-    description:
-      "HTML",
-  },
-  {
-    title: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg",
-    description:
-      "HTML",
-  },
-];
 export default App;

@@ -42,23 +42,37 @@ function App() {
                 I'm a Web Developer and a Linux Enthusiast.
               </p>
               <div className="cursor-pointer inline-flex mr-5 py-2 px-5 text-base animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
-                <img src={github} className="fill-white w-6 mr-2"></img>Github
+                <img src={github} className="w-6 mr-2"></img>Github
               </div>
               <div className="cursor-pointer inline-flex py-2 px-5 text-base animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
-                <img src={resume} className="fill-white w-6 mr-2"></img>Resume
+                <img src={resume} className="w-6 mr-2"></img>Resume
               </div>
             </div>
             <div className="relative">
               <div className="absolute inset-1 rounded-full bg-gradient-to-b from-blue-900  to-red-900 opacity-50 blur"></div>
               <img
-                className="relative block rounded-full max-h-[300px]"
+                className="relative block rounded-full max-h-[250px] sm:max-h-[300px]"
                 src={dp}
               ></img>
             </div>
           </motion.h1>
         </HeroHighlight>
       </div>
-      <div>Hello</div>
+      <div className="bg-gray-950 font-jbmono py-10">
+        <p className="text-center text-white text-3xl">
+          Things I fiddle with...
+        </p>
+        <div className="flex p-10 gap-6">
+          <img
+            className="w-24"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+          />
+          <img
+            className="w-24"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+          />
+        </div>
+      </div>
     </>
   );
 }

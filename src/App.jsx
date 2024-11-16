@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { HeroHighlight, Highlight } from "./components/ui/hero-highlight";
 import { FlipWords } from "./components/ui/flip-words";
 import { Meteors } from "./components/ui/meteors";
-
+import Footer from "./Footer/Footer";
 import Navbar from "./Navbar/Navbar";
 import dp from "./assets/profile.png";
 import github from "./assets/github.svg";
@@ -353,6 +353,8 @@ function App() {
           </div>
         </div>
       </div>
+
+      <Footer></Footer>
     </>
   );
 }

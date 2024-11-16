@@ -7,6 +7,7 @@ import { Meteors } from "./components/ui/meteors";
 import Footer from "./Footer/Footer";
 import Navbar from "./Navbar/Navbar";
 import dp from "./assets/profile.png";
+import blackdp from "./assets/dp.png"
 import github from "./assets/github.svg";
 import resume from "./assets/resume.svg";
 
@@ -68,8 +69,8 @@ function App() {
             <div className="relative">
               <div className="absolute inset-1 rounded-full bg-gradient-to-b from-blue-900  to-red-900 opacity-50 blur"></div>
               <img
-                className="relative block rounded-full max-h-[250px] sm:max-h-[300px]"
-                src={dp}
+                className="relative block rounded-full max-h-[250px] sm:max-h-[300px] bg-black"
+                src={blackdp}
               ></img>
             </div>
           </motion.h1>

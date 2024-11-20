@@ -60,7 +60,7 @@ function App() {
                   <img src={github} className="w-6 mr-2"></img>Github
                 </div>
               </a>
-              <a href="https://ranjan.tech/resume" target="_blank">
+              <a href="https://od.ranjan.tech/Resume-Ranjan.pdf" target="_blank">
                 <div className="cursor-pointer inline-flex py-2 px-5 text-base animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
                   <img src={resume} className="w-6 mr-2"></img>Resume
                 </div>
@@ -210,10 +210,10 @@ function App() {
                 This portfolio, made using React and Tailwind.
               </p>
               <div className="flex gap-5 mt-auto justify-end items-center w-full">
-                <a>
+                <a href="https://github.com/rjn991/ranjan.tech" target="_blank">
                   <img className="w-6" src={githubp}></img>
                 </a>
-                <a>
+                <a href="https://ranjan.tech" target="_blank">
                   <img className="w-6" src={linkp}></img>
                 </a>
               </div>
@@ -276,10 +276,10 @@ function App() {
                 My old portfolio, cooked using raw HTML and CSS.
               </p>
               <div className="flex gap-5 mt-auto justify-end items-center w-full">
-                <a href="https://github.com/rjn991/ranjan.tech" target="_blank">
+                <a href="https://github.com/rjn991/old-portfolio" target="_blank">
                   <img className="w-6" src={githubp}></img>
                 </a>
-                <a href="https://ranjan.tech" target="_blank">
+                <a href="https://old-portfolio-lovat.vercel.app/" target="_blank">
                   <img className="w-6" src={linkp}></img>
                 </a>
               </div>

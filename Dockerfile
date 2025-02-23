@@ -16,7 +16,7 @@ COPY . .
 RUN npm run build
 
 # Production Stage with Apache
-FROM httpd:2.4-alpine
+FROM httpd
 
 # Copy built files to Apache's public directory
 COPY --from=builder /app/dist/ /usr/local/apache2/htdocs/

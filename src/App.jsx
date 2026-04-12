@@ -24,7 +24,7 @@ import earbio from "./assets/earbio.png";
 import leafopedia from "./assets/leafopedia.png";
 import hyprland from "./assets/hyprland.png";
 function App() {
-  const words = ["Web Developer", "Cloud Enthusiast", "Linux Hobbyist"];
+  const words = ["DevOps Engineer", "Cloud Enthusiast", "Linux Hobbyist"];
   return (
     <>
       <div className="min-h-screen flex flex-col">
@@ -53,7 +53,7 @@ function App() {
                 I am a <FlipWords words={words} />
               </div>
               <p className="block sm:hidden text-xl text-neutral-300">
-                I'm a Web Developer and a Linux Enthusiast.
+                I'm a DevOps Engineer and a Linux Enthusiast.
               </p>
               <a href="https://github.com/rjn991" target="_blank" className="mr-5">
                 <div className="cursor-pointer inline-flex py-2 px-5 text-base animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">

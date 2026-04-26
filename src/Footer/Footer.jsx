@@ -7,6 +7,7 @@ import {
   faLinkedinIn,
   faTelegram,
 } from "@fortawesome/free-brands-svg-icons";
+import  OnlyFans from "../assets/onlyfans.png";
 const Footer = () => {
   return (
     <>
@@ -24,9 +25,14 @@ const Footer = () => {
           <a href="https://t.me/rjn991" target="_blank">
             <FontAwesomeIcon icon={faTelegram} />
           </a>
+          <div className="flex items-center gap-1">
+            <a href="https://i.pinimg.com/originals/0d/e6/02/0de602fa36a8846d57beab58e2ed5fd7.gif" target="_blank">
+              <img src={OnlyFans} alt="OnlyFans" className="h-5" />
+            </a>
+          </div>
         </div>
         <div className="font-jbmono text-white text-center mt-2">
-          <p>© 2024 Ranjan H T. All rights reserved.</p>
+          <p>© 2026 Ranjan H T. All rights reserved.</p>
         </div>
         <div className="w-full absolute inset-0 h-screen">
           <SparklesCore

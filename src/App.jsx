@@ -85,65 +85,9 @@ function App() {
           <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
             <img
               className="h-24"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
             />
-            <p className="cursor-default pt-1">HTML5</p>
-          </div>
-          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
-            <img
-              className="h-24"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-            />
-            <p className="cursor-default pt-1">CSS3</p>
-          </div>
-          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
-            <img
-              className="h-24"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-            />
-            <p className="cursor-default pt-1">JavaScript</p>
-          </div>
-          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
-            <img
-              className="h-24"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
-            />
-            <p className="cursor-default pt-1">React</p>
-          </div>
-          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
-            <img
-              className="h-24"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
-            />
-            <p className="cursor-default pt-1">Tailwind</p>
-          </div>
-          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
-            <img
-              className="h-24"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
-            />
-            <p className="cursor-default pt-1">NodeJS</p>
-          </div>
-          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
-            <img
-              className="h-24"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
-            />
-            <p className="cursor-default pt-1">MongoDB</p>
-          </div>
-          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
-            <img
-              className="h-24"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
-            />
-            <p className="cursor-default pt-1">Firebase</p>
-          </div>
-          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
-            <img
-              className="h-24"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
-            />
-            <p className="cursor-default pt-1">Python</p>
+            <p className="cursor-default pt-1">AWS</p>
           </div>
           <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
             <img
@@ -155,9 +99,93 @@ function App() {
           <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
             <img
               className="h-24"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg"
             />
-            <p className="cursor-default pt-1">AWS</p>
+            <p className="cursor-default pt-1">GCP</p>
+          </div>
+          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
+            <img
+              className="h-24"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg"
+              />
+            <p className="cursor-default pt-1">Kubernetes</p>
+          </div>
+          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
+            <img
+              className="h-24"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain.svg"
+            />
+            <p className="cursor-default pt-1">Docker</p>
+          </div>
+          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
+            <img
+              className="h-24"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg"
+            />
+            <p className="cursor-default pt-1">Jenkins</p>
+          </div>
+          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
+            <img
+              className="h-24"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg"
+            />
+            <p className="cursor-default pt-1">Gitlab</p>
+          </div>
+          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
+            <img
+              className="h-24"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg"
+            />
+            <p className="cursor-default pt-1">Terraform</p>
+          </div>
+          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
+            <img
+              className="h-24"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ansible/ansible-original.svg" 
+            />
+            <p className="cursor-default pt-1">Ansible</p>
+          </div>
+          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
+            <img
+              className="h-24"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/helm/helm-original.svg"
+            />
+            <p className="cursor-default pt-1">Helm</p>
+          </div>
+          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
+            <img
+              className="h-24"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/argocd/argocd-original.svg" 
+            />
+            <p className="cursor-default pt-1">ArgoCD</p>
+          </div>
+          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
+            <img
+              className="h-24"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prometheus/prometheus-original.svg"
+            />
+            <p className="cursor-default pt-1">Prometheus</p>
+          </div>
+          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
+            <img
+              className="h-24"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grafana/grafana-original.svg"
+            />
+            <p className="cursor-default pt-1">Grafana</p>
+          </div>
+          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
+            <img
+              className="h-24"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+            />
+            <p className="cursor-default pt-1">Python</p>
+          </div>
+          <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
+            <img
+              className="h-24"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg"
+            />
+            <p className="cursor-default pt-1">Bash</p>
           </div>
           <div className=" hover:bg-slate-800 rounded-xl p-3 hover:text-gray-300">
             <img
